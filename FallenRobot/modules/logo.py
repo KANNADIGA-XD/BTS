@@ -17,18 +17,18 @@ from FallenRobot import telethn
 from PIL import Image, ImageDraw, ImageFont
 
 
-LOGO_LINKS            = ["https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
-                         "https://telegra.ph/file/c1ff2d5ec5e1b5bd1b200.jpg",
-                         "https://telegra.ph/file/08c5fbe14cc4b13d1de05.jpg",
-                         "https://telegra.ph/file/66614a049d74fe2a220dc.jpg",
-                         "https://telegra.ph/file/9cc1e4b24bfa13873bd66.jpg",
-                         "https://telegra.ph/file/792d38bd74b0c3165c11d.jpg",
-                         "https://telegra.ph/file/e1031e28a4aa4d8bd7c9b.jpg",
-                         "https://telegra.ph/file/2be9027c55b5ed463fc18.jpg",
-                         "https://telegra.ph/file/9fd71f8d08158d0cc393c.jpg",
-                         "https://telegra.ph/file/627105074f0456f42058b.jpg",
-                         "https://telegra.ph/file/62b712f741382d3c171cd.jpg",
-                         "https://telegra.ph/file/496651e0d5e4d22b8f72d.jpg",
+LOGO_LINKS            = ["https://te.legra.ph/file/9bec598cdee9a51ff0b77.jpg",
+                         "https://te.legra.ph/file/55ce9f61b08a6d830e2ce.jpg",
+                         "https://te.legra.ph/file/c1a27d53b7255defd16e6.jpg",
+                         "https://te.legra.ph/file/2c1b0fb5787efb1257e22.jpg",
+                         "https://te.legra.ph/file/2fb0e86e935d0d2c0b51c.jpg",
+                         "https://te.legra.ph/file/3760c87068343c9b7b246.jpg",
+                         "https://te.legra.ph/file/5adef7ec2faf5573a941a.jpg",
+                         "https://te.legra.ph/file/32f1b7f0d6345ea484490.jpg",
+                         "https://te.legra.ph/file/220973a155eded2711984.jpg",
+                         "https://te.legra.ph/file/60bcf7f2dc111dec6d171.jpg",
+                         "https://te.legra.ph/file/7b7fd72122b6d1ac92eca.jpg",
+                         "https://te.legra.ph/file/bc39935451a1d45d9d696.jpg",
                          "https://telegra.ph/file/6619d0eee2c35e022ee74.jpg",
                          "https://telegra.ph/file/f72fcb27c9b1e762d184b.jpg",
                          "https://telegra.ph/file/01eac0fe1a722a864d7de.jpg",
@@ -252,7 +252,7 @@ LOGO_LINKS            = ["https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id != OWNER_ID and not quew:
-  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <ANONYMOUS>`')
+  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <Λ𝖦ՕᏒΛ>`')
   return
  pesan = await event.reply('**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**')
  try:
@@ -276,12 +276,12 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "fallen.png"
     img.save(fname, "png")
-    await telethn.send_file(event.chat_id, file=fname, caption = f"━━━━━━━━━━━━━━━━\nʟᴏɢᴏ sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ​ [💔 𝗙𝝙𝗟𝗟𝝣𝗡 ✘ 𝗥𝗢𝗕𝗢𝗧 ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ💔](https://t.me/FallenXRobot)\n━━━━━━━━━━━━━━━━")         
+    await telethn.send_file(event.chat_id, file=fname, caption = f"━━━━━━━━━━━━━━━━\nʟᴏɢᴏ sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ​ [💔 Λ𝖦ՕᏒΛ ВՕТ‌ٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖٖٖٜٖٖٖٖ💔](https://t.me/Agora_robot)\n━━━━━━━━━━━━━━━━")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @DevilsHeavenMF')
+    await event.reply(f'Error, Report @karunada_kings_and_queens')
 
 
 __mod_name__ = "Lᴏɢᴏ​"
