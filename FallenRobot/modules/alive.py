@@ -11,11 +11,11 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://te.legra.ph/file/5481b59e4a31fca4499fe.jpg",
-    "https://te.legra.ph/file/85a67867942ff92c5622b.jpg",
-    "https://te.legra.ph/file/7a81bab81fb73527b2ad3.jpg",
-    "https://te.legra.ph/file/66091a9f4514e8b626ac5.jpg",
-    "https://te.legra.ph/file/be5d28bb10a47ce8e6060.jpg",
+    "https://te.legra.ph/file/2c1b0fb5787efb1257e22.jpg",
+    "https://te.legra.ph/file/2fb0e86e935d0d2c0b51c.jpg",
+    "https://te.legra.ph/file/c1a27d53b7255defd16e6.jpg",
+    "https://te.legra.ph/file/55ce9f61b08a6d830e2ce.jpg",
+    "https://te.legra.ph/file/9bec598cdee9a51ff0b77.jpg",
 ]
 
 @register(pattern=("/alive"))
