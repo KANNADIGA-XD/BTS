@@ -10,7 +10,7 @@
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <img src="https://telegra.ph/file/7f9abc8e7eb950cb88952.jpg">
+  <img src="https://te.legra.ph/file/20e2b53a0fd32b03ba2c3.jpg">
 </p>
 
 ## ㅤㅤㅤ 🖤ꜰᴀʟʟᴇɴ ʀᴏʙᴏᴛ🖤
